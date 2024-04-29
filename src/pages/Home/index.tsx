@@ -13,6 +13,9 @@ import {
 import WhyChooseUs from "./WhyChooseUs";
 import CoursesCategories from "./CoursesCategories";
 import FeaturedCourses from "./FeaturedCourses";
+import Testimonials from "./Testimonials";
+import EndRole from "./EndRole";
+import Footer from "./Footer";
 
 import ImageHome from "../../assets/Home_Image.png";
 
@@ -159,37 +162,12 @@ const Home = () => {
 
       <FeaturedCourses />
 
-      <Grid
-        item
-        xs={12}
-        position="relative"
-        zIndex="100"
-        sx={{
-          backgroundColor: "yellow",
-          height: "80vh",
-        }}
-      >
-        Test
-      </Grid>
-
+      <Testimonials />
       
+      <EndRole />
 
+      <Footer />
 
-
-
-      {/* 
-      <Grid
-        item
-        xs={12}
-        position="relative"
-        zIndex="100"
-        sx={{
-          backgroundColor: "blue",
-          height: "80vh",
-        }}
-      >
-        test
-      </Grid> */}
     </Grid>
   );
 };
