@@ -27,10 +27,10 @@ const ButtonContact = ({ isNonMobileScreens }: Props) => {
                         // fontWeight: "bold", 
                         margin: "0.5rem",
                         // padding: "0.5rem",
-                        textDecoration: "none",
                         border: "1px solid",
                         borderRadius: 2,
                         borderColor: "#7c7c7c",
+                        textDecoration: "none",
                         textTransform: "none",
                     }}>
                     Contact

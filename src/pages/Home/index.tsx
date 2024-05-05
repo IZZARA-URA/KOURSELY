@@ -98,6 +98,7 @@ const Home = () => {
                     fontWeight: "bold",
                     padding: "1rem",
                     textDecoration: "none",
+                    textTransform: "none",
                     borderRadius: 4,
                     width: {
                       xs: "35%",
@@ -115,6 +116,7 @@ const Home = () => {
                     fontWeight: "bold",
                     padding: "1rem",
                     textDecoration: "none",
+                    textTransform: "none",
                     border: "1px solid #141414",
                     borderRadius: 4,
                     width: {
@@ -162,7 +164,7 @@ const Home = () => {
 
       <FeaturedCourses />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
       
       <EndRole />
 

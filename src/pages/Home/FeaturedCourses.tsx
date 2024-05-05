@@ -261,17 +261,18 @@ const FeaturedCourses = () => {
               fontWeight: "bold",
               padding: "1rem",
               margin: "auto",
-              textDecoration: "none",
               borderRadius: 4,
+              textDecoration: "none",
+              textTransform: "none",
               width: {
                 xs: "150px",
-                sm: "250px",
-                md: "350px",
+                sm: "150px",
+                md: "150px",
               },
               // maxWidth:"700px"
             }}
           >
-            Get Started
+            View All Coures
           </Button>
         </Grid>
       </Grid>

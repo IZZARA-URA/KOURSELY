@@ -2,7 +2,7 @@ import React from "react";
 
 import { Grid, Box, Typography, Button, Card, CardMedia } from "@mui/material";
 
-import ImageHome from "../../assets/Home_Image.png";
+import Image from "../../assets/EndRole.png";
 
 const EndRole = () => {
   return (
@@ -13,26 +13,62 @@ const EndRole = () => {
       zIndex="100"
       sx={{
         backgroundColor: "#FFEBEF",
-        height: "60vh",
+        height: "80vh",
         width: "100%",
       }}
     >
       <Box maxWidth="1300px" margin="auto" marginTop="4rem">
-        <Grid display="flex" justifyContent="space-around">
+        <Grid
+          display="flex"
+          justifyContent="space-around"
+          // sx={{ backgroundColor: "red" }}
+        >
           <Box>
-            {" "}
-            <Card
-              sx={{
-                zIndex: 100,
-                background: "transparent",
-                boxShadow: "none",
-                // paddingTop: "4rem",
-              }}
-            >
-              <CardMedia component="img" src={ImageHome} />
-            </Card>
+            <Box>
+              <Box
+                sx={{
+                  position: "relative",
+                  display: "flex",
+                  justifyContent: "flex-end",
+                  zIndex: 10,
+                  right: "-50px",
+                  bottom:"-50px"
+                }}
+              >
+                <svg height="100" width="100">
+                  <circle r="50" cx="50" cy="50" fill="#FCD53A" />
+                </svg>
+              </Box>
+
+              <Card
+                sx={{
+                  position: "relative",
+                  background: "transparent",
+                  boxShadow: "none",
+                  zIndex: 100,
+                  // paddingTop: "4rem",
+                }}
+              >
+                <CardMedia component="img" src={Image} />
+              </Card>
+
+              <Box
+                sx={{
+                  position: "relative",
+                  display: "flex",
+                  justifyContent: "start",
+                  zIndex: 10,
+                  right: "75px",
+                  bottom:"75px"
+                }}
+              >
+                <svg height="150" width="150">
+                  <circle r="75" cx="75" cy="75" fill="#1C5CFF" />
+                </svg>
+              </Box>
+            </Box>
           </Box>
-          <Box>
+          <Box sx={{marginTop: "4rem"}}>
             <Typography
               variant="h1"
               component="h2"
@@ -58,6 +94,7 @@ const EndRole = () => {
                 padding: "1rem",
                 marginLeft: "2rem",
                 textDecoration: "none",
+                textTransform: "none",
                 borderRadius: 4,
                 width: {
                   xs: "120px",
