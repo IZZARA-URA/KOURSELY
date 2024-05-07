@@ -30,7 +30,7 @@ function App() {
           <CssBaseline />
           <NavBar />
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/KOURSELY" element={<HomePage />} />
           
           </Routes>
         </ThemeProvider>
