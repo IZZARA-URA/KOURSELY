@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KOURSELY/static/css/main.0c04acf5.css",
-    "main.js": "/KOURSELY/static/js/main.fde60614.js",
+    "main.js": "/KOURSELY/static/js/main.71503c7d.js",
     "static/media/image.png": "/KOURSELY/static/media/image.b4ad9a6a3333635a6a7a.png",
     "static/media/EndRole.png": "/KOURSELY/static/media/EndRole.21db6991fa00abeb2549.png",
     "static/media/Home_Image.png": "/KOURSELY/static/media/Home_Image.f6b87a6c0d23e7a2ffea.png",
@@ -9,10 +9,10 @@
     "static/media/PersonalDevelopment.png": "/KOURSELY/static/media/PersonalDevelopment.e9693bec741a39301fa2.png",
     "index.html": "/KOURSELY/index.html",
     "main.0c04acf5.css.map": "/KOURSELY/static/css/main.0c04acf5.css.map",
-    "main.fde60614.js.map": "/KOURSELY/static/js/main.fde60614.js.map"
+    "main.71503c7d.js.map": "/KOURSELY/static/js/main.71503c7d.js.map"
   },
   "entrypoints": [
     "static/css/main.0c04acf5.css",
-    "static/js/main.fde60614.js"
+    "static/js/main.71503c7d.js"
   ]
 }
