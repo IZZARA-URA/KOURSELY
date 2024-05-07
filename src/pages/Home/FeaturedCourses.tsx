@@ -25,7 +25,7 @@ const FeaturedCourses = () => {
         // backgroundColor: "pink  ",
         height: {
           xs: "185vh",
-          sm: "170vh",
+          sm: "185vh",
           md: "85vh",
         },
       }}

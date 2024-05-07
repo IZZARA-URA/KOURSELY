@@ -40,30 +40,27 @@ const Footer = () => {
       zIndex="100"
       sx={{
         backgroundColor: "#fff",
-        height: "80vh",
+        height: {
+          xs: "85vh",
+          sm: "85vh",
+          md: "85vh",
+        },
       }}
     >
-      <Box
-        maxWidth="1200px"
-        margin="auto"
-        marginTop="10rem"
-        // sx={{ position: "absolute", top: "50%", left: "50%" }}
-      >
+      <Box maxWidth="1200px" margin="auto" marginTop="10rem">
         <Box
           sx={{
             backgroundColor: "#150B3D",
             width: "100%",
             height: "45vh",
             borderRadius: "20px",
+            display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            position:"relative"
+            position: "relative",
           }}
         >
-          <Box
-            textAlign="center"
-            sx={{ position: "absolute", top: "30%", left: "25%" }}
-          >
+          <Box textAlign="center">
             <Typography
               variant="h1"
               component="h2"
@@ -81,14 +78,13 @@ const Footer = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 width: "100%",
-                margon: "auto",
-                marginTop: "4rem"
+                marginTop: "2rem",
               }}
             >
               <TextField
                 label="Email"
                 sx={textStyle}
-                style={{ width: "40vh", marginRight: "4rem" }}
+                style={{ width: "30vh", marginRight: "1rem" }}
               />
               <Button
                 sx={{
@@ -101,11 +97,10 @@ const Footer = () => {
                   textDecoration: "none",
                   textTransform: "none",
                   width: {
-                    xs: "150px",
+                    xs: "80px",
                     sm: "150px",
                     md: "150px",
                   },
-                  // maxWidth:"700px"
                 }}
               >
                 Subscribe

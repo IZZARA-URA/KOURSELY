@@ -29,6 +29,7 @@ const Home = () => {
 
   return (
     <Grid container  margin="auto">
+
       <Grid item xs={12} height="60vh">
         <Grid item xs={12} spacing={0} height="50vh">
           <Box

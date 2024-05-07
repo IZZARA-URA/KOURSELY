@@ -13,67 +13,88 @@ const EndRole = () => {
       zIndex="100"
       sx={{
         backgroundColor: "#FFEBEF",
-        height: "80vh",
+        height: {
+          xs: "65vh",
+          sm: "65vh",
+          md: "45vh",
+        },
         width: "100%",
       }}
     >
       <Box maxWidth="1300px" margin="auto" marginTop="4rem">
         <Grid
-          display="flex"
+          // display="flex"
           justifyContent="space-around"
-          // sx={{ backgroundColor: "red" }}
+          sx={{
+            // backgroundColor: "red",
+            display: {
+              sm: "flex",
+              md: "flex",
+            },
+          }}
         >
           <Box>
             <Box>
               <Box
                 sx={{
-                  position: "relative",
-                  display: "flex",
-                  justifyContent: "flex-end",
-                  zIndex: 10,
-                  right: "-50px",
-                  bottom:"-50px"
+                  display: {
+                    xs: "none",
+                    sm: "none",
+                    md: "inherit",
+                  },
                 }}
               >
-                <svg height="100" width="100">
-                  <circle r="50" cx="50" cy="50" fill="#FCD53A" />
-                </svg>
-              </Box>
+                <Box
+                  sx={{
+                    position: "relative",
+                    display: "flex",
+                    justifyContent: "flex-end",
+                    zIndex: 10,
+                    right: "-50px",
+                    bottom: "-50px",
+                  }}
+                >
+                  <svg height="100" width="100">
+                    <circle r="50" cx="50" cy="50" fill="#FCD53A" />
+                  </svg>
+                </Box>
 
-              <Card
-                sx={{
-                  position: "relative",
-                  background: "transparent",
-                  boxShadow: "none",
-                  zIndex: 100,
-                  // paddingTop: "4rem",
-                }}
-              >
-                <CardMedia component="img" src={Image} />
-              </Card>
+                <Card
+                  sx={{
+                    position: "relative",
+                    background: "transparent",
+                    boxShadow: "none",
+                    zIndex: 100,
+                  }}
+                >
+                  <CardMedia component="img" src={Image} />
+                </Card>
 
-              <Box
-                sx={{
-                  position: "relative",
-                  display: "flex",
-                  justifyContent: "start",
-                  zIndex: 10,
-                  right: "75px",
-                  bottom:"75px"
-                }}
-              >
-                <svg height="150" width="150">
-                  <circle r="75" cx="75" cy="75" fill="#1C5CFF" />
-                </svg>
+                <Box
+                  sx={{
+                    position: "relative",
+                    display: "flex",
+                    justifyContent: "start",
+                    zIndex: 10,
+                    right: "75px",
+                    bottom: "75px",
+                  }}
+                >
+                  <svg height="150" width="150">
+                    <circle r="75" cx="75" cy="75" fill="#1C5CFF" />
+                  </svg>
+                </Box>
               </Box>
             </Box>
           </Box>
-          <Box sx={{marginTop: "4rem"}}>
+          <Box sx={{ marginTop: "4rem" }}>
             <Typography
               variant="h1"
               component="h2"
               fontWeight="bold"
               margin="2rem"
+              position="relative"
+              zIndex="100"
             >
               Talented and Highly
               <br />
