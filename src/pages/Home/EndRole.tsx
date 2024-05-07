@@ -9,14 +9,14 @@ const EndRole = () => {
     <Grid
       item
       xs={12}
-      position="relative"
-      zIndex="100"
+      // position="relative"
+      // zIndex="100"
       sx={{
         backgroundColor: "#FFEBEF",
         height: {
           xs: "65vh",
           sm: "65vh",
-          md: "45vh",
+          md: "65vh",
         },
         width: "100%",
       }}
